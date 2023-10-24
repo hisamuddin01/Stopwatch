@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
     <link rel="shortcut icon" href="pngwing.com.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
+    <div class="container">
+        <h1>Stopwatch <span>JavaScript</span></h1>
+        <div class="wrapper">
+            <span class="time" id="display">
+                00:00:00
+            </span>
+        </div>
+        <div class="controls flex">
+            <button class="pause btn flex"><ion-icon name="pause-outline"></ion-icon></button>
+            <button class="start btn flex"><ion-icon name="play-outline"></ion-icon></button>
+            <button class="reset btn flex"><ion-icon name="refresh-outline"></ion-icon></button>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
